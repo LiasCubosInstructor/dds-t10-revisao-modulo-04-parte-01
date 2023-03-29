@@ -1,0 +1,20 @@
+[
+  {
+  "id": 1,
+  "name": "John",
+  "lastName": "Armless",
+  "age": 20,
+  "class": "DDS-10",
+  "address": {
+    "postalCode": "05397120",
+    "number": 65
+  },
+  "testScores": [
+    {
+      "module": 1,
+      "score": 10
+    }
+  ]
+  }
+]
+

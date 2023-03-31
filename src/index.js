@@ -1,14 +1,12 @@
 // import express from 'express';
 const express = require('express');
-const routes = require('./routes')
 // const { validationOfAllParams } = require('./middlewares')
+const studentController = require('./modules/student/student.controller')
 
 const application = express();
 
-// application.use(validationOfAllParams)
-
-application.use(routes)
-
 application.use(express.json())
+
+application.use(studentController)
 
 application.listen(3000)
